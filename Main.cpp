@@ -27,7 +27,7 @@ void Main()
 	Window::Resize(1280, 720);
 	ScalableWindow::Setup(1280, 720);
 
-	TextureAsset::Register(L"Particle", L"Example/Particle.png", TextureDesc::Mipped);
+	TextureAsset::Register(L"Particle", L"Particle.png", TextureDesc::Mipped);
 	Effect effect;
 
 	Array<Circle> stars;
