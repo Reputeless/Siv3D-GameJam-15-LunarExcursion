@@ -21,6 +21,7 @@ struct Smoke : IEffect
 
 void Main()
 {
+	Window::SetTitle(L"Lunar Excursion | CONTROL: [Q][Z][Space][M][O] | RESET: [Enter]");
 	const ColorF skyColorTop(0.08, 0.04, 0.08), skyColorBottom(0.35, 0.25, 0.35);
 	Graphics::SetBackground(skyColorTop);
 	Window::Resize(1280, 720);
